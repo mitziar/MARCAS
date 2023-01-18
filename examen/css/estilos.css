@@ -1,0 +1,42 @@
+body{
+    display: grid;
+    grid-template-columns: 80%;
+    background-color: hsl(15, 20%, 50%);
+    align-items: center;
+    justify-content: center;
+}
+main{
+    flex: 80%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+.cabecera{
+
+    background-color:hsl(14, 35%, 63%);
+}
+.indice{
+    padding: 3px;
+    border: 1px solid white;
+}
+h2{
+    background-color: aliceblue;
+}
+
+.frases > article > p {
+ border: 3px solid brown;
+}
+.frases > article{
+    background-color: burlywood;
+}
+.frases{
+    padding: 3px;
+    border: 1px solid white;
+}
+footer{
+    margin-top: 10px;
+    background-color: aqua;
+    height: 100px;
+}
+
